@@ -24,7 +24,7 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "./test-zoom-repo/node_modules/@zoomus/websdk/dist/lib/",
+                "input": "./node_modules/@zoomus/websdk/dist/lib/",
                 "output": "./test-zoom-repo/node_modules/@zoomus/websdk/dist/lib/"
               }
             ],
