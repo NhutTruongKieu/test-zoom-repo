@@ -3,10 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import { DOCUMENT } from '@angular/common';
 
 import { ZoomMtg } from '@zoomus/websdk';
-
+ZoomMtg.setZoomJSLib('https://source.zoom.us/1.7.8/lib', '/av');
 ZoomMtg.preLoadWasm();
 ZoomMtg.prepareJssdk();
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
